@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hanka Store</title>
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./CSS/normalize.css" />
+		<link rel="stylesheet" href="./CSS/reset.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="./CSS/header.css" />
+		<link rel="stylesheet" href="./CSS/banner.css" />
+		<link rel="stylesheet" href="./CSS/products.css" />
+		<link rel="stylesheet" href="./CSS/cards.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__search">
+					<a href="#">
+						<h1><img src="./img/Logo.png" alt="logo" class="logo" /></h1>
+					</a>
+					<form class="search__form">
+						<input type="text" class="search__bar" placeholder="What are you looking for?" />
+						<a href="#">
+							<button class="btn__search"><i class="fa fa-search"></i></button>
+						</a>
+					</form>
+				</div>
+				<a href="#"><button class="login__btn">Login</button></a>
+			</div>
+		</header>
+
+		<main>
+			<section class="banner__container">
+				<div class="banner__img" alt="banner"></div>
+				<div class="banner__left">
+					<h1 class="banner__title">Be what you always wanted to be</h1>
+					<p class="banner__subtitle">Make your dreams come true</p>
+					<button class="banner__btn">Upgrade now</button>
+				</div>
+			</section>
+
+			<article class="products">
+				<section class="products__section">
+					<header class="products__header">
+						<h3 class="products__header__title">Prosthetics</h3>
+						<a class="products__header__link" href="#">See products</a>
+					</header>
+					<div class="card__container">
+						<div class="card">
+							<img class="card__image" src="/img/Prosthetics/man (1).png" alt="man" />
+							<h4 class="card__name">Full body (Male)</h4>
+							<p class="card__price">$100,000</p>
+							<a class="card__link" href="#">See product</a>
+						</div>
+						<div class="card">
+							<img class="card__image" src="/img/Prosthetics/woman.png" alt="woman" />
+							<h4 class="card__name">Full body (Female)</h4>
+							<p class="card__price">$100,000</p>
+							<a class="card__link" href="#">See product</a>
+						</div>
+						<div class="card">
+							<img class="card__image" src="/img/Prosthetics/prosthetic.png" alt="hand" />
+							<h4 class="card__name">Hand</h4>
+							<p class="card__price">$3,000</p>
+							<a class="card__link" href="#">See product</a>
+						</div>
+						<div class="card">
+							<img class="card__image" src="/img/Prosthetics/robot-arm.png" alt="arm" />
+							<h4 class="card__name">Full arm</h4>
+							<p class="card__price">$10,000</p>
+							<a class="card__link" href="#">See product</a>
+						</div>
+						<div class="card">
+							<img class="card__image" src="/img/Prosthetics/robot-leg.png" alt="leg" />
+							<h4 class="card__name">Leg</h4>
+							<p class="card__price">$10,000</p>
+							<a class="card__link" href="#">See product</a>
+						</div>
+						<div class="card">
+							<img class="card__image" src="/img/Prosthetics/retina.png" alt="eye" />
+							<h4 class="card__name">Prosthetic Eye</h4>
+							<p class="card__price">$18,000</p>
+							<a class="card__link" href="#">See product</a>
+						</div>
+					</div>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>

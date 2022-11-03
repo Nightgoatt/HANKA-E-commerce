@@ -1,0 +1,14 @@
+.card__container {
+	align-self: center;
+	padding: 1rem;
+	width: 1200px;
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.card__image {
+	width: 100%;
+	border: 5px solid red;
+	border-radius: 30px;
+}
