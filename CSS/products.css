@@ -1,10 +1,12 @@
 .products {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .products__header {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 1rem;
+	padding: 1rem 1rem;
+	margin-top: 20px;
 }

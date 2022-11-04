@@ -1,0 +1,83 @@
+.info {
+	background-color: azure;
+	margin-top: 3rem;
+}
+
+.info__hanka {
+	display: flex;
+	margin-left: 100px;
+}
+
+.info__img__box {
+	margin-top: 3rem;
+}
+
+.info__hanka__logo {
+	width: 150px;
+}
+
+.info__about {
+	display: flex;
+	flex-direction: column;
+	margin-left: 200px;
+}
+
+.info__about a {
+	font-family: 'Orbitron', sans-serif;
+	font-size: large;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 1.5rem;
+}
+
+.info__contact {
+	margin-left: 200px;
+	margin-top: 3%;
+}
+
+.info__contact__form {
+	display: flex;
+	flex-direction: column;
+	border: none;
+}
+
+.info__contact__title {
+	margin-left: 1rem;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	font-size: large;
+}
+
+.info__contact__form :first-child {
+	margin-top: 1rem;
+	width: 600px;
+	border-color: transparent;
+	border-radius: 10px;
+	resize: none;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+}
+
+.info__contact__form :first-child :focus {
+	outline: none;
+}
+
+.info__contact__form :nth-child(2) {
+	border-color: transparent;
+	border-radius: 10px;
+	resize: none;
+	margin-top: 1rem;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+}
+
+.info__btn {
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: brown;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}

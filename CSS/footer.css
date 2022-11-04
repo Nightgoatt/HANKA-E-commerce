@@ -1,0 +1,25 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 2rem;
+}
+
+.my__name {
+	font-size: large;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+}
+
+.icons {
+	font-size: 2rem;
+}
+
+.icons a {
+	text-decoration: none;
+	padding: 2rem;
+}
+
+.icons a :hover {
+	font-size: 2.1rem;
+}
