@@ -2,13 +2,15 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	margin-top: 2rem;
+	padding: 2rem;
+	background-color: black;
 }
 
 .my__name {
 	font-size: large;
 	font-family: 'Orbitron', sans-serif;
 	font-weight: bold;
+	color: red;
 }
 
 .icons {
@@ -16,10 +18,12 @@
 }
 
 .icons a {
+	color: red;
 	text-decoration: none;
 	padding: 2rem;
 }
 
-.icons a :hover {
-	font-size: 2.1rem;
+.icons a i:hover {
+	transform: scale(1.2);
+	transition: all 0.3s linear;
 }

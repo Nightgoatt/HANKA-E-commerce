@@ -1,0 +1,36 @@
+body {
+	font-family: 'Orbitron', sans-serif;
+}
+
+.hanka__login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hanka__log {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 5rem;
+	width: 40%;
+}
+
+.login {
+	display: flex;
+	justify-content: center;
+}
+
+.email {
+	height: 3rem;
+}
+
+.pass {
+	height: 3rem;
+}
+
+.enter {
+	cursor: pointer;
+	padding: 1rem;
+	background-color: red;
+}

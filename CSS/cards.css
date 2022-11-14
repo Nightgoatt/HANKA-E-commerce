@@ -7,8 +7,37 @@
 	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
+.card {
+	color: red;
+	font-family: 'Orbitron', sans-serif;
+}
+
 .card__image {
 	width: 100%;
 	border: 5px solid red;
 	border-radius: 30px;
+}
+
+.card__image:hover {
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 0.3s linear;
+}
+
+.card__info {
+	margin-top: 1rem;
+}
+
+.card__link {
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: red;
+	color: black;
+}
+
+.card__link:hover {
+	background-color: rgba(255, 0, 0, 0.71);
+	transition: all 0.3s linear;
 }
