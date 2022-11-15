@@ -1,6 +1,6 @@
 .banner__img {
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.57)),
-		url(/img/banner-image.png);
+		url(../img/banner-image.png);
 	background-size: cover;
 	max-width: 100%;
 	height: calc(100vh - 200px);
