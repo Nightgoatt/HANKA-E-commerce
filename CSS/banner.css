@@ -2,27 +2,25 @@
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.57)),
 		url(/img/banner-image.png);
 	background-size: cover;
-	width: 100%;
+	max-width: 100%;
 	height: calc(100vh - 200px);
 }
 
 .banner__left {
 	animation: fadeIn 3s;
 	position: absolute;
-	width: 700px;
-	height: 200px;
+	max-width: 700px;
+	max-height: 200px;
 	top: 62%;
 	left: 2%;
 }
 
 .banner__title {
 	font-size: 2rem;
-	font-family: 'Orbitron', sans-serif;
 	color: red;
 }
 
 .banner__subtitle {
-	font-family: 'Orbitron', sans-serif;
 	color: red;
 	position: inherit;
 	top: 12%;
@@ -30,16 +28,19 @@
 }
 
 .banner__btn {
-	font-family: 'Orbitron', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	padding: 1rem;
 	border-radius: 10px;
-	position: inherit;
-	top: 50%;
+	margin-top: 3rem;
 	animation: fadeIn 6s;
 	background-color: red;
 	cursor: pointer;
+}
+
+.banner__btn:hover {
+	transform: scale(1.05);
+	transition: all 0.3s linear;
 }
 
 @keyframes fadeIn {

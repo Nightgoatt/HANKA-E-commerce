@@ -1,4 +1,5 @@
 body {
+	background-color: black;
 	font-family: 'Orbitron', sans-serif;
 }
 
@@ -19,18 +20,23 @@ body {
 .login {
 	display: flex;
 	justify-content: center;
+	color: red;
 }
 
 .email {
 	height: 3rem;
+	outline: none;
 }
 
 .pass {
 	height: 3rem;
+	outline: none;
 }
 
 .enter {
 	cursor: pointer;
 	padding: 1rem;
+	border-radius: 5px;
 	background-color: red;
+	font-weight: bold;
 }
