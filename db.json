@@ -1,0 +1,105 @@
+{
+ "prosthetics": [
+	{
+	  "img": "./img/prosthetics/man (1).png",
+	  "name": "Full body (Male)",
+	  "price": "$100,000",
+	  "link" : "#",
+	  "id": "1"
+	},
+
+	{
+	  "img": "./img/prosthetics/woman.png",
+	  "name": "Full body (Female)",
+	  "price": "$100,000",
+	  "link" : "#",
+	  "id": "2"
+	},
+
+	{
+	  "img": "./img/prosthetics/prosthetic.png",
+	  "name": "Hand",
+	  "price": "$3,000",
+	  "link" : "#",
+	  "id": "3"
+	},
+
+	{
+	  "img": "./img/prosthetics/robot-arm.png",
+	  "name": "Full Arm",
+	  "price": "$10,000",
+	  "link" : "#",
+	  "id": "4"
+	},
+
+	{
+	  "img": "./img/prosthetics/robot-leg.png",
+	  "name": "Leg",
+	  "price": "10,000",
+	  "link" : "#",
+	  "id": "5"
+	},
+
+	{
+	  "img": "./img/prosthetics/retina.png",
+	  "name": "Prosthetic eye",
+	  "price": "18,000",
+	  "link" : "#",
+	  "id": "6"
+	}
+
+ ],
+
+"brain-implants": [
+	{
+	  "img": "./img/brain-implants/humanoid.png",
+	  "name": "Full brain upgrade",
+	  "price": "$70,000",
+	  "link" : "#",
+	  "id": "1"
+	},
+
+	{
+	  "img": "./img/brain-implants/chip (3).png",
+	  "name": "Memory boost",
+	  "price": "$50,000",
+	  "link" : "#",
+	  "id": "2"
+	},
+
+	{
+	  "img": "./img/brain-implants/chip (1).png",
+	  "name": "Limbic system",
+	  "price": "$3,000",
+	  "link" : "#",
+	  "id": "3"
+	},
+
+	{
+	  "img": "./img/brain-implants/humanoid (1).png",
+	  "name": "Mechatronic core",
+	  "price": "$60,000",
+	  "link" : "#",
+	  "id": "4"
+	},
+
+	{
+	  "img": "./img/brain-implants/hacking (1).png",
+	  "name": "Hacking protocol",
+	  "price": "80,000",
+	  "link" : "#",
+	  "id": "5"
+	},
+
+	{
+	  "img": "./img/brain-implants/chip.png",
+	  "name": "Ram upgrade",
+	  "price": "18,000",
+	  "link" : "#",
+	  "id": "6"
+	}
+
+ ]
+
+
+}

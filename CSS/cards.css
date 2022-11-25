@@ -1,42 +1,42 @@
 .card__container {
-	align-self: center;
-	padding: 1rem;
-	width: 1200px;
-	display: grid;
-	gap: 2rem;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   align-self: center;
+   padding: 1rem;
+   width: 1200px;
+   display: grid;
+   gap: 2rem;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .card {
-	color: red;
+   color: red;
 }
 
 .card__image {
-	width: 100%;
-	border: 5px solid red;
-	border-radius: 30px;
+   width: 100%;
+   border: 5px solid red;
+   border-radius: 30px;
 }
 
 .card__image:hover {
-	cursor: pointer;
-	transform: scale(1.03);
-	transition: all 0.3s linear;
+   cursor: pointer;
+   transform: scale(1.03);
+   transition: all 0.3s linear;
 }
 
 .card__info {
-	margin-top: 1rem;
+   margin-top: 1rem;
 }
 
 .card__link {
-	text-decoration: none;
-	font-weight: bold;
-	border-radius: 10px;
-	padding: 5px;
-	background-color: red;
-	color: black;
+   text-decoration: none;
+   font-weight: bold;
+   border-radius: 10px;
+   padding: 5px;
+   background-color: red;
+   color: black;
 }
 
 .card__link:hover {
-	background-color: rgba(255, 0, 0, 0.71);
-	transition: all 0.3s linear;
+   background-color: rgba(255, 0, 0, 0.71);
+   transition: all 0.3s linear;
 }
