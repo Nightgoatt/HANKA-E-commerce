@@ -99,7 +99,59 @@
 	  "id": "6"
 	}
 
+ ],
+
+"military": [
+	{
+	  "img": "./img/military/robot.png",
+	  "name": "HANKA - Minotaur",
+	  "price": "$600,000",
+	  "link" : "#",
+	  "id": "1"
+	},
+
+	{
+	  "img": "./img/military/robot (1).png",
+	  "name": "HANKA - Mk. 7",
+	  "price": "$150,000",
+	  "link" : "#",
+	  "id": "2"
+	},
+
+	{
+	  "img": "./img/military/weapon (2).png",
+	  "name": "HANKA - M-89e",
+	  "price": "$25,000",
+	  "link" : "#",
+	  "id": "3"
+	},
+
+	{
+	  "img": "./img/military/weapon.png",
+	  "name": "HANKA - HJKE-11<",
+	  "price": "$35,000",
+	  "link" : "#",
+	  "id": "4"
+	},
+
+	{
+	  "img": "./img/military/vr-glasses.png",
+	  "name": "HANKA - VR-v2.0",
+	  "price": "90,000",
+	  "link" : "#",
+	  "id": "5"
+	},
+
+	{
+	  "img": "./img/military/augmented-reality.png",
+	  "name": "HANKA - AG-v76",
+	  "price": "100,000",
+	  "link" : "#",
+	  "id": "6"
+	}
+
  ]
+
 
 
 }

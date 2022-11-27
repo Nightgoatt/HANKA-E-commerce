@@ -1,8 +1,8 @@
 import {productServices} from '../services/products-services.js';
 
 const createProduct = (img, name, price, link) => {
-	const product = document.createElement('div');
-	const content = `
+  const product = document.createElement('div');
+  const content = `
 	<div class="card">
 		<img class="card__image" src="${img}" />
 		<div class="card__info">
@@ -12,42 +12,34 @@ const createProduct = (img, name, price, link) => {
 		</div>
 	</div>
 `;
-	product.innerHTML = content;
-	return product;
+  product.innerHTML = content;
+  return product;
 };
 
 const prostheticsSection = document.querySelector('[data-prosthetics]');
 const brainSection = document.querySelector('[data-brain]');
+const militarySection = document.querySelector('[data-military]')
 
 const rend = async () => {
-	try {
-		const firstSection = await productServices.prosthSection();
-		const secondSection = await productServices.brainSection();
+  try {
+    const firstSection = await productServices.prosthSection();
+    const secondSection = await productServices.brainSection();
+    const thirdSection = await productServices.militarySection();
 
-		firstSection.forEach((element) => {
-			prostheticsSection.appendChild(
-				createProduct(
-					element.img,
-					element.name,
-					element.price,
-					element.link
-				)
-			);
-		});
+    firstSection.forEach((element) => {
+      prostheticsSection.appendChild(createProduct(element.img, element.name, element.price, element.link));
+    });
 
-		secondSection.forEach((element) => {
-			brainSection.appendChild(
-				createProduct(
-					element.img,
-					element.name,
-					element.price,
-					element.link
-				)
-			);
-		});
-	} catch (error) {
-		console.log(error);
-	}
+    secondSection.forEach((element) => {
+      brainSection.appendChild(createProduct(element.img, element.name, element.price, element.link));
+    });
+
+    thirdSection.forEach((element) => {
+      militarySection.appendChild(createProduct(element.img, element.name, element.price, element.link));
+    });
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 rend();

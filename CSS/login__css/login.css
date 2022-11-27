@@ -1,42 +1,75 @@
 body {
-	background-color: black;
-	font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .hanka__login {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hanka__log {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	padding: 5rem;
-	width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem;
+  width: 40%;
 }
 
 .login {
-	display: flex;
-	justify-content: center;
-	color: red;
+  display: flex;
+  justify-content: center;
+  color: red;
 }
 
-.email {
-	height: 3rem;
-	outline: none;
+.field-holder {
+  position: relative;
+  margin-bottom: 1.25em;
 }
 
-.pass {
-	height: 3rem;
-	outline: none;
+input {
+  border: 0;
+  border-bottom: 3px solid red;
+  outline: none;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+  display: flex;
+  align-items: center;
+  cursor: text;
+  transition: 0.3s ease-in-out;
+}
+
+input {
+  font-size: 1.5rem;
+  width: 100%;
+  height: 55px;
+  background: none;
+  color: red;
+}
+
+label {
+  font-size: 1.5rem;
+  height: 55px;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  color: red;
+  font-size: 1rem;
+  top: -30px;
+  pointer-events: none;
 }
 
 .enter {
-	cursor: pointer;
-	padding: 1rem;
-	border-radius: 5px;
-	background-color: red;
-	font-weight: bold;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: red;
+  font-weight: bold;
 }

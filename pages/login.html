@@ -37,8 +37,17 @@
       <section class="hanka__login">
         <form class="hanka__log">
           <h3 class="login">Log In</h3>
-          <input placeholder="E-mail" type="email" class="email" id="#" />
-          <input placeholder="Password" type="password" class="pass" id="#" />
+
+          <div class="field-holder">
+            <input type="email" class="email" id="#" required />
+            <label for="email">E-mail</label>
+          </div>
+
+          <div class="field-holder">
+            <input type="password" class="pass" id="#" required />
+            <label for="password">Password</label>
+          </div>
+
           <button class="enter">Enter</button>
         </form>
       </section>
